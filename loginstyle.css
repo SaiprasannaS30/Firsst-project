@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('./pictures/music.jpg');
+    background-image: url('music.jpg');
     background-size: cover;
     height: 657px;
 }
