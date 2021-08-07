@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('./pictures/music.jpg');
+    background-size: cover;
+    height: 657px;
+}
+
+
+.login-form {
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+.login-form h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.login-form h6{
+    font-size: 20px;
+    margin: 15px;
+}
+
+.login-form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 15px 10px;
+    width: 50%;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 4px;
+}
+
+span.psw {
+    display: flex;
+    float: none;
+}
